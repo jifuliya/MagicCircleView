@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MagicCircleView">
+        <attr name="magic_drawable" format="reference|color" />
+        <attr name="default_magic_drawable" format="reference|color" />
+        <attr name="magic_anim" format="string" />
+        <attr name="magic_speed" format="integer" />
+        <attr name="magic_speed_interval" format="integer" />
+        <attr name="magic_degree" format="integer" />
+        <attr name="magic_is_vague" format="boolean" />
+    </declare-styleable>
+</resources>

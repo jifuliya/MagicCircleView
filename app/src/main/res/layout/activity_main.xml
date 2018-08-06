@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <jifuliya.lyl.magiccircleview.MagicCircleView
+        android:id="@+id/magic"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:default_magic_drawable="@drawable/bg_default_test"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:magic_anim="debris"
+        app:magic_degree="20"
+        app:magic_drawable="@drawable/bg_default_test"
+        app:magic_is_vague="false"
+        app:magic_speed="900"
+        app:magic_speed_interval="2" />
+
+</android.support.constraint.ConstraintLayout>
